@@ -1,0 +1,6 @@
+assets/js/libs/
+node_modules/
+# Logs
+logs
+# Grunt intermediate storage
+.grunt
