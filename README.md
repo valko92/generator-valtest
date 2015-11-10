@@ -1,9 +1,29 @@
-# generator-valtest [![Build Status](https://secure.travis-ci.org/valko92/generator-valtest.png?branch=master)](https://travis-ci.org/valko92/generator-valtest)
+###Valtest Generator
+This is a work in progress. It's starting out as a learning project for me, however eventually I hope to polish this off and make it a thing.
 
-> [Yeoman](http://yeoman.io) generator
+It's not part of yeoman's generators yet, so you install it by first running this script anywhere in the terminal.
+
+```bash
+npm install -g https://github.com/valko92/generator-valtest
+```
+
+Next, make a project folder, go into it and run this to start up the generator.Then follow the promps to scaffold out a project!
+
+```bash
+yo valtest
+```
+
+---
+###To Do:
+* use EJS for Cardinal vs Bootstrap and Single vs Multi instead of separate files
+* Prompt for single-page versus multiplage
+  - if multipage: templated or non
+* Index.html generator pages for single and multi
+* templating done through grunt - use a build folder
 
 
-## Getting Started
+
+---
 
 ### What is Yeoman?
 
@@ -22,18 +42,6 @@ npm install -g yo
 ### Yeoman Generators
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
-
-To install generator-valtest from npm, run:
-
-```bash
-npm install -g generator-valtest
-```
-
-Finally, initiate the generator:
-
-```bash
-yo valtest
-```
 
 ### Getting To Know Yeoman
 
